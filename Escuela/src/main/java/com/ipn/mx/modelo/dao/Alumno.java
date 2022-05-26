@@ -27,9 +27,9 @@ public class Alumno {
     private static final String SQL_SELECT_ALL = "select * from Alumno";
 
     private Connection conexion;
-private static final String URL = "jdbc:postgresql://ec2-3-225-79-57.compute-1.amazonaws.com:5432/da7cl2j0uj54le";
-    private static final String USERNAME = "xikhvdcgizibem";
-    private static final String PASSWORD = "4f8bed4fe6aa22da9a8f42b9c861377ae0fd4d2e59d3692e348d84fe93ac2f9b";
+    private static final String URL = "jdbc:mysql://localhost:3306/EscuelaWeb";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "root";
     public Alumno() {
     }
 
